@@ -1,0 +1,9 @@
+machine:
+  install:
+    disk: ${install_disk}
+  network:
+    hostname: ${hostname}
+  kernel:
+    modules:
+      - name: "rockchip-cpufreq"
+        # params: [ "param1=value1", "param2=value2" ]
