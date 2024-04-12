@@ -24,12 +24,12 @@ provider "talos" {
 }
 
 provider "kubernetes" {
-  config_path = "/home/gabriel/.kube/config" // Adjust the path if necessary.
+  config_path = "~/.kube/config" // Adjust the path if necessary.
 }
 
 provider "helm" {
   kubernetes {
-    config_path = "/home/gabriel/.kube/config" // Ensure this path is correctly pointing to your kubeconfig.
+    config_path = "~/.kube/config" // Ensure this path is correctly pointing to your kubeconfig.
   }
 }
 
