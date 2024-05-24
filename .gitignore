@@ -34,5 +34,5 @@ override.tf.json
 terraform.rc
 
 # Ignore sensitive talosctl config files
-*kubeconfig.yaml
-*talosconfig.yaml
+*kubeconfig*
+*talosconfig*

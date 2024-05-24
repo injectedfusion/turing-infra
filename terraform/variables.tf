@@ -1,7 +1,7 @@
 variable "cluster_name" {
   description = "A name to provide for the Talos cluster"
   type        = string
-  default     = "turing-rk3588-cluster"
+  default     = "turingpi-k8s-cluster"
 }
 
 variable "cluster_endpoint" {
